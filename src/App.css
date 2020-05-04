@@ -1,23 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+body {
+  background-image: url('img/freestyle1.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+}
+
+h1.opacity {
+  color: red;
+  margin-bottom: 5px;
+}
+
+.opacity {
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.65);
+  filter: alpha(opacity=50);
+  letter-spacing: 0;
+  font-family: Oxygen;
+  color: #53b637;
+  font-size: 30px;
+  padding-right: 35px;
+  padding-left: 35px;
+  text-align: center;
+}
+.image-container{
+  margin-bottom: 30px;
+}
 .wrapper {
   padding-top: 30px;
 }
 
 body h3 {
   margin-bottom: 25px;
+  background-color: #ff0000;
 }
 
 .navbar-brand a {
-  color: #ffffff;
+  color: #ff0000;
 }
 
-.form-wrapper,
-.table-wrapper {
+.form-wrapper {
   max-width: 500px;
   margin: 0 auto;
 }
 
 .table-wrapper {
-  max-width: 700px;
+  width: 100%;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.65);
+  filter: alpha(opacity=50);
+  padding: 20px;
+  margin: 0 auto;
 }
 
 .edit-link {
@@ -25,7 +60,7 @@ body h3 {
   font-size: 0.875rem;
   line-height: normal;
   border-radius: 0.2rem;
-  color: #fff;
+  color: #ffffff;
   background-color: #28a745;
   border-color: #28a745;
   margin-right: 10px;
@@ -36,4 +71,72 @@ body h3 {
 .edit-link:hover {
   text-decoration: none;
   color: #ffffff;
+}
+.iFrame {
+  width: 100vw;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+.opacity-block {
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.65);
+  filter: alpha(opacity=50);
+  width: 30vw;
+  padding: 20px;
+  color: white;
+}
+.opacity-block-comment {
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.65);
+  filter: alpha(opacity=50);
+  width: 50vw;
+  padding: 20px;
+  color: white;
+}
+.color {
+  color: white;
+}
+table:hover {
+  color: white;
+}
+.image-author1 {
+  margin: 40px 0 20px 0;
+  border: solid #53b637 4px;
+}
+.image-author2 {
+  margin: 20px 0 20px 0;
+  border: solid #53b637 4px;
+}
+.image-author3 {
+  margin: 20px 0 40px 0;
+  border: solid #53b637 4px;
+}
+@media only screen and (max-width: 770px) {
+  .menu-item {
+    display: block;
+  }
+  .opacity-block {
+    display: block;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.65);
+    filter: alpha(opacity=50);
+    width: 90vw;
+    padding: 20px;
+    color: white;
+    margin: 10px 0;
+  }
+  .image-author1 {
+    margin: 10px 0;
+    padding: 0;
+  }
+  .image-author2 {
+    margin: 10px 0;
+    padding: 0;
+  }
+  .image-author3 {
+    margin: 10px 0;
+  }
 }
